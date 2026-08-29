@@ -62,4 +62,4 @@ Como a aplicação utiliza estritamente recursos nativos da Web API, ela pode se
 
 1. Efetue o clone do repositório remoto:
    ```bash ;;
-   git clone [https://github.com/felipecvo-fiap-fde-26-fev/ProjetoSoulUP.git](https://github.com/felipecvo-fiap-fde-26-fev/ProjetoSoulUP.git)"# ecoeye-soulup" 
+   git clone [https://github.com/Suzart007/ecoeye-soulup.git](https://github.com/Suzart007/ecoeye-soulup.git)"# ecoeye-soulup" 
