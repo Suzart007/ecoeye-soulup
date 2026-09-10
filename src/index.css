@@ -1,0 +1,78 @@
+/* commit 02/29 (Henry): feat(core) - cria entrypoint da aplicação e estilos globais (tokens Tailwind) */
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #2d6a4f;
+  --color-primary-dark: #1b4332;
+  --color-primary-light: #52b788;
+  --color-secondary: #b7e4c7;
+  --color-bg-soft: #d8f3dc;
+  --color-bg: #fafafa;
+  --color-bg-alt: #f1f3f5;
+  --color-border: #dee2e6;
+  --color-text: #495057;
+  --color-text-dark: #212529;
+  --color-text-muted: #6c757d;
+  --color-accent: #ffb703;
+  --color-success: #2a9d8f;
+  --color-danger: #d62828;
+  --color-info: #277da1;
+
+  --font-heading: 'Poppins', 'Segoe UI', Tahoma, sans-serif;
+  --font-body: 'Inter', 'Segoe UI', Tahoma, sans-serif;
+
+  --container-max: 1280px;
+  --header-height: 80px;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-body);
+    color: var(--color-text);
+    background: var(--color-bg);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-heading);
+    color: var(--color-text-dark);
+  }
+}
+
+@layer utilities {
+  .skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    z-index: 1000;
+    background: var(--color-primary);
+    color: #fff;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0 0 8px 0;
+  }
+
+  .skip-link:focus {
+    left: 0;
+  }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(16px);
+    transition:
+      opacity 0.6s ease,
+      transform 0.6s ease;
+  }
+
+  .reveal-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
