@@ -1,5 +1,6 @@
 {
   "name": "soulup-ecoeye",
+  "description": "SoulUp - plataforma da Ecoeye com Avatar Inteligente (Neo), Challenge FIAP 2026",
   "private": true,
   "version": "1.0.0",
   "type": "module",
