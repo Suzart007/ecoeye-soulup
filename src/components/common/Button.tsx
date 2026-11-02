@@ -2,7 +2,7 @@
 import type { ReactNode } from 'react'
 import { Link } from 'react-router-dom'
 
-type Variant = 'primary' | 'secondary' | 'accent'
+type Variant = 'primary' | 'secondary' | 'accent' | 'danger'
 
 const variantClasses: Record<Variant, string> = {
   primary:
@@ -10,6 +10,7 @@ const variantClasses: Record<Variant, string> = {
   secondary:
     'bg-white text-primary border border-border hover:border-primary-light',
   accent: 'bg-accent text-text-dark hover:brightness-95 shadow-md',
+  danger: 'bg-danger text-white hover:brightness-90 shadow-md',
 }
 
 const baseClasses =
