@@ -1,4 +1,5 @@
 // commit 18/29 (Kaio): feat(experiencia) - migra página Experiência do Usuário para componente React
+import { Link } from 'react-router-dom'
 import { useDocumentTitle } from '../hooks/useDocumentTitle'
 import Reveal from '../components/common/Reveal'
 import PageHero from '../components/common/PageHero'
@@ -164,12 +165,14 @@ export default function Experiencia() {
             <div className="flex gap-4 rounded-2xl border border-border bg-bg-soft p-6 max-w-3xl mx-auto">
               <ClockIcon className="w-8 h-8 text-primary flex-shrink-0" />
               <div>
-                <h3 className="font-semibold text-text-dark mb-1">O que vem na próxima entrega</h3>
+                <h3 className="font-semibold text-text-dark mb-1">Novidade da Sprint 4</h3>
                 <p className="text-sm text-text leading-relaxed">
-                  Nesta Sprint 3, migramos toda a interface para <strong>React + Vite + TypeScript</strong>, com
-                  componentização e navegação em SPA. Na <strong>Sprint 4</strong>, conectaremos o widget do Neo ao{' '}
-                  <strong>Avatar Inteligente desenvolvido em IBM Watson Assistant</strong>, integrando os fluxos do
-                  chatbot (intenções, entidades, contexto e Webchat) diretamente no front-end.
+                  A SoulUp agora consome a <strong>API REST desenvolvida em Java</strong>: as{' '}
+                  <Link to="/missoes" className="font-semibold text-primary hover:underline">missões</Link> e os{' '}
+                  <Link to="/usuarios" className="font-semibold text-primary hover:underline">usuários</Link> exibidos
+                  na plataforma vêm direto do banco de dados e podem ser cadastrados, editados e excluídos pela
+                  interface. O próximo passo é conectar o widget do Neo ao{' '}
+                  <strong>Avatar Inteligente desenvolvido em IBM Watson Assistant</strong>.
                 </p>
               </div>
             </div>

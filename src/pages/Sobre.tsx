@@ -16,13 +16,18 @@ const TECH_STACK = [
   { title: 'React + Vite', description: 'Interface moderna em SPA' },
   { title: 'TypeScript', description: 'Tipagem segura em todo o código' },
   { title: 'Tailwind CSS', description: 'Estilização responsiva' },
+  { title: 'API REST em Java', description: 'Dados de missões e usuários' },
+  { title: 'Banco Oracle', description: 'Persistência dos dados' },
+  { title: 'Vercel', description: 'Deploy e hospedagem' },
   { title: 'Git + GitHub', description: 'Versionamento' },
+  { title: 'Fetch API', description: 'Requisições HTTP nativas' },
 ]
 
 const ROADMAP = [
   { label: 'Sprint 1 e 2 · Concluído', title: 'Desenvolvimento do Front-End', description: 'Páginas estruturadas, design responsivo, interatividade básica e identidade visual consolidada.', done: true },
-  { label: 'Sprint 3 · 2º semestre', title: 'Migração para React + Vite + TypeScript', description: 'Reestruturação total da interface em componentes, com Tailwind CSS, React Router e React Hook Form.', done: true },
-  { label: 'Sprint 4 · 2º semestre', title: 'Integração com o Avatar Inteligente', description: 'Conexão do widget do Neo com a IA (Watson Assistant) e refinamento para a apresentação no NEXT 2026.', done: false },
+  { label: 'Sprint 3 · Concluído', title: 'Migração para React + Vite + TypeScript', description: 'Reestruturação total da interface em componentes, com Tailwind CSS, React Router e React Hook Form.', done: true },
+  { label: 'Sprint 4 · Concluído', title: 'Integração com a API Java', description: 'Consumo da API REST desenvolvida em Java (DDD): listagem, detalhe, cadastro, edição e exclusão de missões e usuários, com deploy na Vercel.', done: true },
+  { label: 'NEXT 2026 · Próximo passo', title: 'Neo conectado à IA', description: 'Conexão do widget do Neo com o Watson Assistant e refinamento da experiência para a apresentação no NEXT 2026.', done: false },
 ]
 
 export default function Sobre() {
