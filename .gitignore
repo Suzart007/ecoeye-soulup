@@ -21,6 +21,9 @@ dist-ssr
 *.sln
 *.sw?
 
+# variáveis de ambiente locais (use .env.example como modelo)
+.env
+
 # logs
 npm-debug.log*
 yarn-debug.log*
