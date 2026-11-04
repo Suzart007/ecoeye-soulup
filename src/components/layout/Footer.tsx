@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="font-heading font-bold text-lg mb-2">SoulUp</h3>
+            <h3 className="font-heading font-bold text-lg mb-2 text-white">SoulUp</h3>
             <p className="text-sm text-secondary leading-relaxed">
               Uma plataforma da Prospera que conecta engajamento digital a benefícios reais e impacto ambiental
               positivo.
@@ -23,6 +23,8 @@ export default function Footer() {
               <li><Link to="/sobre" className="hover:text-secondary">Sobre</Link></li>
               <li><Link to="/solucao" className="hover:text-secondary">Solução</Link></li>
               <li><Link to="/experiencia" className="hover:text-secondary">Experiência</Link></li>
+              <li><Link to="/missoes" className="hover:text-secondary">Missões</Link></li>
+              <li><Link to="/usuarios" className="hover:text-secondary">Usuários</Link></li>
             </ul>
           </div>
 

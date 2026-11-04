@@ -19,7 +19,7 @@ Na **Sprint 4**, a Single Page Application em **React + Vite + TypeScript** pass
 | --- | --- |
 | 💻 Repositório no GitHub | [github.com/Suzart007/ecoeye-soulup](https://github.com/Suzart007/ecoeye-soulup) |
 | 🎬 Vídeo de apresentação (YouTube) | _inserir o link do vídeo_ |
-| 🌐 Aplicação publicada na Vercel | _inserir a URL do deploy_ |
+| 🌐 Aplicação publicada na Vercel | [ecoeye-soulup.vercel.app](https://ecoeye-soulup.vercel.app) |
 | ☕ API Java publicada | _inserir a URL da API_ |
 
 ### Executando localmente
