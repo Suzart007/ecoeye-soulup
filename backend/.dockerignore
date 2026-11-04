@@ -3,7 +3,7 @@ target/
 *.iml
 .vscode/
 .env
-Dockerfile
+Dockerfile.vercel
 .dockerignore
 docs/
 *.md

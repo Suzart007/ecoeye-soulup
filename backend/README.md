@@ -148,10 +148,10 @@ Todos os erros voltam em JSON com o campo `mensagem` (exibido pelo front):
 
 ## Deploy na Vercel (Docker)
 
-A Vercel publica a API a partir do [`Dockerfile`](Dockerfile) desta pasta (Container Runtime, em beta em todos os planos). No repositório [Suzart007/ecoeye-soulup](https://github.com/Suzart007/ecoeye-soulup) a API fica na pasta `backend`, ao lado do front.
+A Vercel publica a API a partir do [`Dockerfile.vercel`](Dockerfile.vercel) desta pasta (Container Runtime, em beta em todos os planos). No repositório [Suzart007/ecoeye-soulup](https://github.com/Suzart007/ecoeye-soulup) a API fica na pasta `backend`, ao lado do front.
 
 1. Em vercel.com: **Add New > Project** e importe o repositório `ecoeye-soulup`. Dê um nome ao projeto (ex.: `ecoeye-soulup-api`).
-2. Em **Root Directory**, escolha a pasta `backend`. O **Framework Preset** deve aparecer como **Container** (a Vercel detecta o `Dockerfile`).
+2. Em **Root Directory**, escolha a pasta `backend`. O **Framework Preset** deve aparecer como **Container** (a Vercel detecta o `Dockerfile.vercel` e o `vercel.json` desta pasta).
 3. Em **Environment Variables**, cadastre `DB_USER` e `DB_PASSWORD`. `CORS_ORIGINS` só é necessária se a URL do front não começar com `https://ecoeye-soulup`.
 4. Clique em **Deploy** e abra a URL gerada: `/` deve responder `"status": "online"` e `/status/banco` deve responder `"conectado"`.
 5. No projeto do **front** na Vercel, cadastre `VITE_API_URL` com a URL da API e faça um novo deploy.
