@@ -35,6 +35,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
       'https://www.linkedin.com/in/matheusvecchi-?utm_source=share_via&utm_content=profile&utm_medium=member_ios',
     github: 'https://github.com/ogvecchi',
     bio: 'Responsável pela Home e pela página de FAQ, incluindo busca e filtros por categoria.',
+    photoUrl: 'https://github.com/ogvecchi.png?size=256',
   },
   {
     id: 'henry',
@@ -43,7 +44,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
     rm: '573576',
     turma: '1TDSPK',
     linkedin: 'https://www.linkedin.com/in/henry-bascope-5a10933a1?utm_source=share_via&utm_content=profile&utm_medium=member_ios',
-    github: 'https://github.com/lupitakilla7-ui',
+    github: 'https://github.com/HenryBascope',
     bio: 'Responsável pela configuração inicial do projeto (Vite, TypeScript, Tailwind) e pelas bases de dados estáticas (navegação, equipe e FAQ).',
+    photoUrl: 'https://github.com/HenryBascope.png?size=256',
   },
 ]

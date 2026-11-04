@@ -213,7 +213,7 @@ Os campos seguem as tabelas `TB_MISSOES` e `TB_USUARIOS` do banco da Sprint 4. O
 | <img src="public/team/guilherme.jpeg" width="64" alt="Guilherme Souza Suzart" /> | Guilherme Souza Suzart | 569884 | 1TDSPK | [LinkedIn](https://www.linkedin.com/in/guilherme-suzart-ba83193b3) | [@Suzart007](https://github.com/Suzart007) |
 | <img src="public/team/kaio.jpeg" width="64" alt="Kaio Marcus Macedo Chiappinelli" /> | Kaio Marcus Macedo Chiappinelli | 573365 | 1TDSPK | [LinkedIn](https://www.linkedin.com/in/kaio-chiappinelli-183106322) | [@KaioChiappinelli](https://github.com/KaioChiappinelli) |
 | <img src="https://github.com/ogvecchi.png?size=128" width="64" alt="Matheus Vecchi" /> | Matheus Vecchi | 569749 | 1TDSPK | [LinkedIn](https://www.linkedin.com/in/matheusvecchi-) | [@ogvecchi](https://github.com/ogvecchi) |
-| <img src="https://github.com/lupitakilla7-ui.png?size=128" width="64" alt="Henry Vitor Medeiros Bascope" /> | Henry Vitor Medeiros Bascope | 573576 | 1TDSPK | [LinkedIn](https://www.linkedin.com/in/henry-bascope-5a10933a1) | [@lupitakilla7-ui](https://github.com/lupitakilla7-ui) |
+| <img src="https://github.com/HenryBascope.png?size=128" width="64" alt="Henry Vitor Medeiros Bascope" /> | Henry Vitor Medeiros Bascope | 573576 | 1TDSPK | [LinkedIn](https://www.linkedin.com/in/henry-bascope-5a10933a1) | [@HenryBascope](https://github.com/HenryBascope) |
 
 Projeto acadêmico desenvolvido para o Challenge 2026 da FIAP em parceria com a Prospera.
 
