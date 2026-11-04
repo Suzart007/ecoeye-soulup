@@ -1,9 +1,10 @@
 import type { ApiErrorKind } from '../types/api'
 
 /** URL base da API Java, definida em VITE_API_URL (.env.local ou painel da Vercel). */
-export const API_URL = (import.meta.env.VITE_API_URL || 'http://localhost:8080').replace(/\/+$/, '')
+export const API_URL = (import.meta.env.VITE_API_URL || 'http://localhost:8080').trim().replace(/\/+$/, '')
 
-const TIMEOUT_MS = 15000
+/** Na Vercel o container da API "dorme" sem uso; a primeira chamada pode levar alguns segundos a mais. */
+const TIMEOUT_MS = 30000
 
 type HttpMethod = 'GET' | 'POST' | 'PUT' | 'DELETE'
 
@@ -15,7 +16,7 @@ interface RequestOptions {
 
 const DEFAULT_MESSAGES: Record<ApiErrorKind, string> = {
   network: 'Não foi possível conectar à API do SoulUp. Verifique sua conexão ou tente novamente em instantes.',
-  timeout: 'A API demorou demais para responder. Tente novamente.',
+  timeout: 'A API demorou demais para responder (ela pode estar iniciando). Tente novamente em alguns segundos.',
   not_found: 'O registro solicitado não foi encontrado.',
   validation: 'A API recusou os dados enviados. Revise os campos e tente novamente.',
   conflict: 'Já existe um registro com esses dados (por exemplo, o mesmo e-mail).',
