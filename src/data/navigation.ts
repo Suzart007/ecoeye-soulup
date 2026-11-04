@@ -6,6 +6,8 @@ export const NAV_ITEMS: NavItem[] = [
   { label: 'Sobre', to: '/sobre' },
   { label: 'Solução', to: '/solucao' },
   { label: 'Experiência', to: '/experiencia' },
+  { label: 'Missões', to: '/missoes' },
+  { label: 'Usuários', to: '/usuarios' },
   { label: 'FAQ', to: '/faq' },
   { label: 'Equipe', to: '/integrantes' },
   { label: 'Falar conosco', to: '/contato', isCta: true },
