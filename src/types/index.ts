@@ -27,6 +27,15 @@ export interface FaqEntry {
   answer: string
 }
 
+/** Cores disponíveis para os selos de situação (StatusBadge). */
+export type BadgeTone = 'success' | 'info' | 'danger' | 'neutral'
+
+export interface FilterOption<T extends string> {
+  value: T
+  label: string
+  count?: number
+}
+
 export interface ContactFormData {
   nome: string
   email: string
